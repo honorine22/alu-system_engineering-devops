@@ -1,8 +1,1 @@
-# DevOps
-
-Readme file for _ssh_ directory.
-
-### Highlight
-
-----SSH-------
-
+alu-system_engineering-devops
