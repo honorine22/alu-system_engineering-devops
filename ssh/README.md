@@ -1,1 +1,8 @@
-**Task:** Setting and connecting to server using Secure Shell
+# DevOps
+
+Readme file for _ssh_ directory.
+
+### Highlight
+
+----SSH-------
+
