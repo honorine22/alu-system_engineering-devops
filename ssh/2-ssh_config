@@ -1,0 +1,5 @@
+Host *
+    IdentityFile ~/.ssh/school
+    IdentitiesOnly yes
+
+PreferredAuthentications publickey
