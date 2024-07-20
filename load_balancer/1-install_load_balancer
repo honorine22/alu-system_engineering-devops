@@ -13,7 +13,7 @@ server_config=\
 frontend honorine-frontend
         bind *:80
         mode http
-        default_backend oreste-backend
+        default_backend honorine22
 backend honorine-backend
         balance roundrobin
         server 6133-web-01 54.82.230.220:80 check
