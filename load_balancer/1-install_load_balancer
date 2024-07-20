@@ -13,11 +13,11 @@ server_config=\
 frontend honorine-frontend
         bind *:80
         mode http
-        default_backend honorine-backend
+        default_backend oreste-backend
 backend honorine-backend
         balance roundrobin
-        server 6133-web-01 50.17.90.234:80 check
-        server 6133-web-02 18.208.245.207:80 check
+        server 6238-web-01 54.196.216.8:80 check
+        server 6238-web-02 98.80.15.59:80 check
 "
 echo "$server_config" | sudo tee -a /etc/haproxy/haproxy.cfg
 
