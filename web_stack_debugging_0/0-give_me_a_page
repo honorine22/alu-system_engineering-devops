@@ -1,16 +1,4 @@
-#!/bin/bash
-
-# Update Apache root content
-echo "Hello Holberton" > /var/www/html/index.html
-
-# Start or restart Apache service
-sudo systemctl restart apache2
-
-# Check if Apache service is running
-if systemctl status apache2 | grep "active (running)" > /dev/null
-then
-    echo "apache2 is running"
-else
-    echo "apache2 is not running"
-    exit 1
-fi
+#!/usr/bin/env bash
+# Start Apache so as to return a
+# page containing Hello Holberton
+service apache2 start
